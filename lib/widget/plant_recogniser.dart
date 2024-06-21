@@ -199,7 +199,7 @@ class _PlantRecognizerState extends State<PlantRecognizer> {
     var title = '';
 
     if (_resultStatus == _ResultStatus.notFound) {
-      title = 'ຫຼົມເຫຼວ ລອງໃຫມ່ອີກຄັ້ງ';
+      title = 'ບໍ່ຮູ້ຈັກ';
     } else if (_resultStatus == _ResultStatus.found) {
       title = _plantLabel;
     } else {
